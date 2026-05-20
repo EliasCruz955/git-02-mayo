@@ -10,7 +10,11 @@ public class Calculadora {
         this.num2 = num2;
     }
 
-    public double sumar(){
+    public double sumar() {
         return num1 + num2;
+    }
+
+    public double restar() {
+        return num1 - num2;
     }
 }
